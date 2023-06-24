@@ -1,0 +1,45 @@
+body{
+    background:linear-gradient(rgba(0, 0, 0, 0.800), rgba(0, 0, 0, 0.800)),  url(/pic/fonnav.jpg);
+    background-attachment: fixed;
+    
+    
+}
+
+.btn{
+    border: medium none;
+  background-image: none; 
+  background: transparent;
+  background-color: transparent;
+ }
+ .btn:hover{
+    cursor: pointer;
+ }
+
+ .grid * {
+    width: 90%;
+     font-size: 22px;
+     color: white;
+     
+ }
+
+ .grid{
+    
+    
+    grid-gap: 30px;
+    margin-left: 2%;
+    justify-items: center; 
+    display: grid;
+    grid-template-columns: repeat(1, 1fr 3fr) }
+
+ 
+.image{
+    width: auto;
+    height: 540px;
+    border: solid rgb(243, 243, 0) 1px;
+}
+
+
+.info{
+    border: solid rgb(243, 243, 0) 1px;
+    padding: 20px;
+}

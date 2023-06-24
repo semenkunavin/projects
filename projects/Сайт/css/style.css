@@ -1,0 +1,465 @@
+@font-face{
+    font-family: "Engravers-Gothic-W01-Bold";
+    src: url("/FontsFree-Net-Engravers-Gothic-W01-Bold.ttf") format("truetype");
+  }
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Engravers-Gothic-W01-Bold", bold;
+  } 
+  
+  body {
+    
+    width: 100%;
+   
+  }
+.head{
+    width: 100%;
+    height: 400px;
+    text-align: center;
+    vertical-align: middle;
+}
+.container {
+    padding: 10px;
+    display: grid;
+    gap: 20px;
+    grid-template-columns: repeat(6, 1fr);
+  }
+  .container2 {
+    padding: 10px;
+    display: grid;
+    gap: 20px;
+    grid-template-columns: repeat(3, 1fr);
+  }
+.box{
+    display: grid;
+    place-items: center;
+  }
+  .box2{
+    display: grid;
+    place-items: center;
+  }
+.pic{
+    background: 
+		linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)), 
+		url("/image/1.jpg");
+    background-size: no-repeat;
+    background-position: center;
+    background-size: cover;
+    height: 800px;
+    width: 100%;
+}
+
+.footer{
+    margin-bottom: 1px;
+    width: 100%;
+    height: 400px;
+    background-color: #033e6b;
+}
+
+.sms{
+    background-color: rgba(0, 0, 139, 0);
+    border: solid 1px white;
+}
+.sms:hover{
+    color: black;
+    transition: 0.5s;
+    background-color: #ffa700;
+    border: 0;
+}
+.block1{
+    padding-top: 12px;
+    width: 100%;
+    height: 800px;
+    background-color: rgb(255, 255, 255);
+}
+.cart{
+    width: 95%;
+    height: 700px;
+    border: 0ch;
+
+}
+.sms1{
+    background-color:rgb(255, 251, 245);
+    border: solid 1px rgb(0, 0, 0);
+}
+.sms1:hover{
+    color: black;
+    transition: 0.5s;
+    background-color: #ffa700;
+    border: 0;
+}
+.sms2{
+    background-color: #0b61A4;
+    border: 0ch;
+    color: white;
+}
+.sms2:hover{
+    color: black;
+    transition: 0.5s;
+    background-color: #ffa700;
+    border: 0;
+}
+.twocart{
+    position: relative;
+    padding: 40px;
+    display: flex;
+}
+.block2{
+    width: 100%;
+    height: 500px;
+    background-color: rgb(255, 255, 255);
+}
+.block3{
+    width: 50%;
+    background-color: #25567b;
+    height: 270px;
+    z-index: 1;
+    position: absolute;
+}
+.block4{
+    position: absolute;
+    right: 70px;
+    width: 50%;
+    background-color: #66A3D2;
+    height: 300px;
+    z-index: 2;
+    margin-top: 50px;
+}
+.textbl3{
+width: 40%;
+position: absolute;
+right: 0;
+margin-right: 130px;
+padding-top: 60px;
+font-size: 20px;
+color: white;
+}
+.textbl4{
+color: white;
+width: 50%;
+margin-left: 50px;
+padding-top: 50px;
+font-size: 20px;
+}
+.trend{
+    padding: 40px;
+    padding-top: 180px;
+    text-align: center;
+    height: 500px;
+    background-image: url("/image/trendsezona.jpg");
+    background-size: no-repeat;
+    background-position: center;
+    background-size: cover;
+    color: white;
+}
+.block5{
+    width: 100%;
+    height: 650px;
+    background-color: rgb(255, 255, 255);
+}
+.otzivigrmain{
+    display:flex;
+    text-align: center;
+    margin-left: 15%;
+    width: 85%;
+    padding: 10px;
+    gap: 200px;
+}
+.otzivigr{
+    display: block;
+    padding: 10px;
+}
+
+.otzivi{
+    
+    margin-left: 7%;
+    width: 85%;
+    padding: 10px;
+    display: grid;
+    gap: 50px;
+    grid-template-columns: repeat(4, 1fr);
+}
+.cartotzivi{
+    width: 100%;
+    height: 500px;
+}
+.map{
+   position: relative;
+}
+.mapinfo{
+    z-index: 1;
+    width: 300px;
+    height: 270px;
+    background-color: #ffffff;
+    position: absolute;
+    margin: 50px;
+    margin-left: 100px;
+    padding-top: 30px;
+    font-size: 22px;
+}
+.mapinfo p{
+    padding-left: 20px;
+    font-weight: lighter;
+}
+.textmapinfo{
+    padding: 5px;
+}
+.footerinfo{
+    width: 90%;
+    margin-left: 10%;
+    padding-top: 90px;
+}
+.footerflex{
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+}
+
+.footerblock{
+    color: white;
+}
+footer div div li{
+    padding: 10px;
+    list-style-type: none;
+}
+footer div div li a{
+    color: white;
+}
+.cartref{
+    color: white;
+}
+.cartref1{
+    
+    background-image: url("/image/putporusfav.jpg");
+    background-size: no-repeat;
+    background-position: center;
+    background-size: cover;
+    height: 300px;
+    width: 100%;
+}
+.cartref2{
+    
+    background-image: url("/image/loveudmfav.jpg");
+    background-size: no-repeat;
+    background-position: center;
+    background-size: cover;
+    height: 300px;
+    width: 100%;
+    
+}
+.cartref3{
+    
+    background-image: url("/image/turnamorefav.jpg");
+    background-size: no-repeat;
+    background-position: center;
+    background-size: cover;
+    height: 300px;
+    width: 100%;
+}
+.butoncart{
+    font-size: 20px;
+    width: 40%;
+    height: 50px;
+    border: NONE;
+    margin-top: 20px;
+    color: white;
+    background-color: #0b61A4;
+}
+.butoncart:hover{
+    background-color: #e4682a;
+    transition: 0.5s;
+}
+
+.form-popup {
+    display: none;
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    
+    border: 3px solid #f1f1f1;
+    z-index: 9;
+    
+  }
+  
+  .form-container {
+    text-align: center;
+    max-width: 400px;
+    padding: 10px;
+    background-color: white;
+    
+  }
+  
+  .form-container input[type=text], .form-container input[type=password] {
+    width: 100%;
+    padding: 15px;
+    margin: 5px 0 22px 0;
+    border: none;
+    background: #f1f1f1;
+  }
+  
+  .form-container input[type=text]:focus, .form-container input[type=password]:focus {
+    background-color: #ddd;
+    outline: none;
+  }
+  
+  .form-container .btn {
+    background-color: #1976D2;
+    color: white;
+    padding: 16px 20px;
+    border: none;
+    cursor: pointer;
+    width: 100%;
+    margin-bottom:10px;
+    opacity: 0.8;
+    font-size: 15px;
+    font-weight: bold;
+  }
+  
+  .form-container .cancel {
+    background-color: #448AFF;
+  }
+  
+  .form-container .btn:hover, .open-button:hover {
+    opacity: 1;
+  }
+
+  /* Стиль Выпадающей Кнопки */
+.dropbtn {
+    padding-top: 26px;
+    color: rgb(255, 255, 255);
+  
+    border: none;
+    cursor: pointer;
+}
+
+/* контейнер <div> - необходим для размещения выпадающего содержимого */
+.dropdown {
+    position: relative;
+    display: inline-block;
+}
+
+/* Выпадающей контент (по умолчанию скрыт) */
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9cd;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+}
+
+/* Ссылки внутри выпадающего списка */
+.dropdown-content a {
+    color: black;
+    padding: 10px 5px;
+    text-decoration: none;
+    display: block;
+}
+
+/* Изменить цвет выпадающих ссылок при наведении */
+.dropdown-content a:hover {background-color: #f1f1f1}
+
+/* Показать выпадающее меню при наведении */
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+
+.zapis{
+    width: 80%;
+    margin-left: 10%;
+    height: 400px;
+    background-color: #3f92d2;
+    text-align: center;
+    padding-top: 20px;
+}
+.zapis2{
+    padding-top: 70px;
+    padding-bottom: 20px;
+    display: grid;
+    gap: 5px;
+    grid-template-columns: repeat(3, 70px);
+    padding-left: 5%;
+
+}
+.zapisform{
+    display: grid;
+    padding-left: 5%;
+    grid-template-columns: repeat(5, 1fr);
+    
+    
+}
+.zapisform p{
+    border: solid 1px black;
+    background-color: white;
+    font-size: 20px;
+}
+.pointsda{
+    height: 50px;
+}
+.switch {
+    position: relative;
+    display: inline-block;
+    width: 60px;
+    height: 34px;
+  }
+  
+  /* Hide default HTML checkbox */
+  .switch input {display:none;}
+  
+  /* The slider */
+  .slider {
+    position: absolute;
+    cursor: pointer;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: #2196F3;
+    -webkit-transition: .4s;
+    transition: .4s;
+  }
+  
+  .slider:before {
+    position: absolute;
+    content: "";
+    height: 26px;
+    width: 26px;
+    left: 4px;
+    bottom: 4px;
+    background-color: white;
+    -webkit-transition: .4s;
+    transition: .4s;
+  }
+  
+  input:checked + .slider {
+    background-color: #2196F3;
+  }
+  
+  input:focus + .slider {
+    box-shadow: 0 0 1px #2196F3;
+  }
+  
+  input:checked + .slider:before {
+    -webkit-transform: translateX(26px);
+    -ms-transform: translateX(26px);
+    transform: translateX(26px);
+  }
+  
+  /* Rounded sliders */
+  .slider.round {
+    border-radius: 34px;
+  }
+  
+  .slider.round:before {
+    border-radius: 50%;
+  }
+
+  .naiti{
+    background-color: #ffa700;
+    width: 30vh;
+    height: 10vh;
+    font-size: 20px;
+    
+    
+  }

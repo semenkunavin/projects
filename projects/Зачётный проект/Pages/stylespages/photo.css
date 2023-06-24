@@ -1,0 +1,102 @@
+body{
+    background:linear-gradient(rgba(0, 0, 0, 0.900), rgba(0, 0, 0, 0.900)),  url(/pic/fonnav.jpg);
+    background-attachment: fixed;
+    font-family: 'Poppins', sans-serif;
+    height: auto;
+}
+.block1{
+    width: 90%;
+    height: auto;
+ left: 0;
+ right: 0;
+ margin: 0 auto;
+ position: absolute;
+    margin-top: 50px;
+    
+}
+
+.gallery {
+    display: grid;
+    grid-template-columns: repeat(8, 1fr);
+    grid-template-rows: repeat(8, 5vw);
+    grid-gap: 50px;
+}
+
+.gallery__img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    display: block;
+}
+.gallery__item--1 {
+    grid-column-start: 1;
+    grid-column-end: 5;
+    grid-row-start: 1;
+    grid-row-end: 5;
+}
+.gallery__item--2 {
+    grid-column-start: 5;
+    grid-column-end: 9;
+    grid-row-start: 1;
+    grid-row-end: 9;
+}
+.gallery__item--3 {
+    grid-column-start: 1;
+    grid-column-end: 5;
+    grid-row-start: 5;
+    grid-row-end: 14;
+}
+.gallery__item--4 {
+    grid-column-start: 1;
+    grid-column-end: 5;
+    grid-row-start: 14;
+    grid-row-end: 16;
+}
+.gallery__item--5 {
+    grid-column-start: 5;
+    grid-column-end: 9;
+    grid-row-start: 9;
+    grid-row-end: 16;
+}
+.main{
+    text-align: center;
+}
+
+.btn{
+    border: medium none;
+  background-image: none; 
+  background: transparent;
+  background-color: transparent;
+ }
+ .btn:hover{
+    cursor: pointer;
+ }
+ .podpis{
+    font-size: 20px;
+    
+   
+   
+ }
+ .scope{
+    position: relative;
+    transition: 0.8s;
+    color: rgba(0, 0, 0, 0);
+ }
+ .scope:hover{
+    z-index: 1;
+    transform: scale(1.1);
+    color: #fff;
+ }
+ span {
+    display: block;
+    padding: 15px;
+    width: 220px;
+    position: absolute;
+    bottom: 0px;
+   
+   
+   
+    text-align: center;
+    
+    font: 11px/16px Tahoma, Geneva, sans-serif;
+  }

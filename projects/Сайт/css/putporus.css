@@ -1,0 +1,8 @@
+.pic1{
+    background-image: url("/image/putporusfav.jpg");
+    background-size: no-repeat;
+    background-position: center;
+    background-size: cover;
+    height: 500px;
+    width: 100%;
+}

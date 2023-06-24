@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="ru">
+  <head>
+    <meta charset="utf-8" />
+    <title>Сеть ресторанов GURU</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Padauk&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="window.css" />
+  </head>
+  <body>
+    <div>
+      <div class="info">
+        <img
+          src="pic\guru.png"
+          alt="альтернативный текст"
+          class="child gurulog"
+        />
+        <nav style="text-align: center">
+          <ul class="hr">
+            <li ><a href="Pages\staff.html">КОМАНДА</a></li>
+            <li style="margin-right: 300px;"><a href="Pages\photo.html">ГАЛЕРЕЯ</a></li>
+            <li><a class="open_modal" href="#open">РЕСТОРАНЫ</a></li>
+            <li><a class="open_modal2" href="#open">КОНТАКТЫ</a></li>
+          </ul>
+        </nav>
+        <div class="parent"></div>
+        <div class="parent">
+          <div class="child">
+            <div
+              class="textpic"
+              style="font-size: 100px; font-family: 'Cinzel', serif"
+            >
+              GURU
+            </div>
+            <div
+              class="textpic"
+              style="font-family: 'Padauk', sans-serif; margin-top: -70px; font-size: 35px;"
+            >
+              r e s t a u r a n t
+            </div>
+            <div>
+              <a href="Pages\menu.html"><button class="btn">МЕНЮ</button></a>
+              <a href="Pages\reservation.html"
+                ><button class="btn">БРОНИРОВАНИЕ</button></a
+              >
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="infoblock">
+      </div>
+      <div class="blockslyde">
+      <div class="container">
+        <div class="slide" style="background-image: url('pic/slyde1.jpg');">
+          <h3>BUYABES</h3>
+        </div>
+        <div class="slide" style="
+            background-image: url('pic/slide2.webp');
+          ">
+          <h3>Grape</h3>
+        </div>
+        <div class="slide" style="
+            background-image: url('pic/slide3.jpg');
+          ">
+          <h3>STEAK</h3>
+        </div>
+        <div class="slide active" style="
+            background-image: url('pic/slyde4.jpg');
+          ">
+          <h3>PLATANO</h3>
+        </div>
+        <div class="slide" style="
+            background-image: url('pic/slyde5.jpeg');
+          ">
+          <h3>KAPREZE</h3>
+        </div>
+      </div>
+    </div>
+      <div id="modal" class="modal bounceIn">
+        <div id="close_modal">+</div>
+        <div class="modal_txt">• Коммунаров, 281
+          <p>• Университетская улица, 1</p>
+          <p>• Студенческая улица, 7</p>
+        </div>
+    </div>
+    <div id="modal2" class="modal bounceIn">
+      <div id="close_modal2">+</div>
+      <div class="modal_txt"><p>Telegram: +7(800)555-35-35</p>
+        <p>E-mail: GuruRestourant@gmail.com</p>
+      </div>
+  </div>
+
+    <script src="window.js"></script>
+    <script src="js/app.js"></script>
+    <footer>ООО"Гуру"</footer>
+    
+  </body>
+</html>
